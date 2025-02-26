@@ -27,13 +27,40 @@ body {
   color: #373a3c;
 }
 
+
+/* Responsive Design */
+
+/* Tablets (pantallas medianas) */
+@media (max-width: 1024px) {
+  #Hero-Section {
+    background-position: center;
+  }
+
+  #Mis-trabajos .image-top {
+    height: 200px;
+  }
+
+  .navbar-brand {
+    width: 120px;
+  }
+}
+
+/* Móviles (pantallas pequeñas) */
 @media (max-width: 768px) {
+  #Hero-Section {
+    background-position: right;
+    padding: 20px;
+  }
+
+  #Mis-trabajos .image-top {
+    height: 180px;
+  }
+
   #Contacto form label {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
